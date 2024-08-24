@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Vite App",
+      "url": "http://localhost:5175", // Ensure this matches your Vite dev server URL
+      "webRoot": "${workspaceFolder}/src", // Adjust if your source files are in a different folder
+      "sourceMaps": true,
+      "trace": true // optional, for detailed logging
+    }
+  ]
+}
